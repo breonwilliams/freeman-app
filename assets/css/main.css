@@ -54,6 +54,11 @@ body {
     height: 100%;
 }
 
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 /* =WordPress Core
 -------------------------------------------------------------- */
 .alignnone {
