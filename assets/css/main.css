@@ -49,6 +49,11 @@ body {
     -webkit-text-size-adjust: 100%;
 }
 
+html,
+body {
+    height: 100%;
+}
+
 /* =WordPress Core
 -------------------------------------------------------------- */
 .alignnone {
@@ -3754,6 +3759,13 @@ Progress Bars
 /*
 Footer
 ================================== */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #262626;
+    color: #FFFFFF;
+}
 
 .footer-section {
     background: #262626;

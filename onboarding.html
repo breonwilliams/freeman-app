@@ -9,8 +9,7 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/responsive-menu/styles.css">
 </head>
-<body style="background-repeat: no-repeat; background-position: 50% 50%; background-size: cover; background-image: url(assets/img/meeting.jpg);">
-
+<body>
 <!-- Menu start -->
 <div class="main-navigation respMenu affix">
     <div class="container">
@@ -38,48 +37,56 @@
 <div class="container pad-100">
     <div class="row">
 
-
         <div class="col-md-6 col-md-offset-3">
-            <div class="jumbotron">
-                <h2 class="site-section__title marginbot-35 text-white">Freeman Capital Status Tracker</h2>
-                <form method="post" action="/index.php" autocomplete="off">
-                    <div class="form-group">
-                        <div class="input-group">
-                            <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
-                            <input type="email" name="email" class="form-control" placeholder="Your Email" value="" maxlength="40">
-                        </div>
-                        <span class="text-danger"></span>
-                    </div>
 
-                    <div class="form-group">
-                        <div class="input-group">
-                            <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
-                            <input type="password" name="pass" class="form-control" placeholder="Your Password" maxlength="15">
-                        </div>
-                        <span class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <label>
-                            <input type="checkbox" name="remember" id="remember"> <span class="text-white">Remember login</span>
-                        </label>
-                    </div>
-
-                    <div class="form-group" style="margin-bottom: 0;">
-                        <button type="submit" class="btn btn-block btn-primary btn-bordered" name="btn-login">login</button>
-                    </div>
-
-                </form>
-                <p class="margintop-30"><small><a href="#">Lost your password?</a></small></p>
+            <div class="alert alert-warning alert-dismissable fade in">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                <i class="icon icon_gift_alt"></i>
+                <strong class="mr10">Welcome Jon Doe</strong>, to your Freeman Capital OnBoarding information.
+                Here you can take a look at the status of your onboarding process.
             </div>
+
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <span class="prefix">OnBoarding Status</span>
+                    <span class="label label-warning">Pending</span>
+                </li>
+                <li class="list-group-item">
+                    <span class="prefix">Application Status</span>
+                    <span class="label label-success">Complete</span>
+                </li>
+                <li class="list-group-item">
+                    <span class="prefix">Disclosure Document Review</span>
+                    <span class="label label-success">Complete</span>
+                </li>
+                <li class="list-group-item">
+                    <span class="prefix">Limited Power of Attorney</span>
+                    <span class="label label-danger">Not Completed</span>
+                </li>
+                <li class="list-group-item">
+                    <span class="prefix">Advisory Agreement</span>
+                    <span class="label label-danger">Not Completed</span>
+                </li>
+                <li class="list-group-item">
+                    <span class="prefix">Initial Deposit</span>
+                    <span class="label label-danger">Not Completed</span>
+                </li>
+                <li class="list-group-item">
+                    <span class="prefix">OnBoarding Status</span>
+                    <span class="label label-warning">Pending</span>
+                </li>
+            </ul>
         </div>
     </div>
 </div>
+
 <!-- Footer -->
 <footer class="footer pad-10">
     <div class="container text-center">
         <small>&copy; 2017 Freeman Capital</small>
     </div>
 </footer>
+
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" defer></script>
