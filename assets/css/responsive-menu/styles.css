@@ -20,6 +20,22 @@
     padding: 0 15px 0;
 }
 
+@media (max-width: 700px) {
+    .logout-btn {
+        position: absolute;
+        right: 55px!important;
+        top: 12px;
+        z-index: 999;
+    }
+}
+
+.logout-btn {
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    z-index: 999;
+}
+
 .affix-top .logo {
     display: none;
 }
