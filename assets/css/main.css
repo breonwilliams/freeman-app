@@ -4060,6 +4060,19 @@ Footer
     transition: all 0.5s;
     -webkit-transform: translateZ(0);
 }
+.contact_links {
+    display: block;
+    color: #262626;
+    cursor: pointer;
+    font-weight: 400;
+}
+.contact_links:after {
+    content: "\f054";
+    width: 1.3em;
+    display: inline-block;
+    font-family: FontAwesome;
+    float: right;
+}
 
 .tweet-icon {
     float: left;
